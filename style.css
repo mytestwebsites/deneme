@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+:root {
+  --m-pink: #F5729F;
+  --m-orange: #FF6220;
+  --m-green: #1CE651;
+  --m-light-green:#91F58C;
+  --m-red:#F50109;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  float: right;
+  position: relative;
+  background: url("bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+section:nth-child(1) header {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+section:nth-child(1) header nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 1em;
+}
+
+section:nth-child(1) h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18vw;
+  z-index: 9999;
+}
+
+section:nth-child(1) button {
+  padding: 20px;
+  border-radius: 2%;
+  font-size: 15px;
+  background-color: #c35429;
+  border: 2px solid #ddd;
+  color: #ddd;
+  font-weight: 600;
+  z-index: 999;
+}
+
+section:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+section:nth-child(2) {
+  width: 1180px;
+  height: 600px;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
