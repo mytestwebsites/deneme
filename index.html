@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="test">
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <h1 id="brand">MARKA</h1>
+    <button>DETAYLAR</button>
+</section>
+
+<section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga eaque sed vitae eos error ex beatae non hic amet laudantium inventore praesentium tempore dicta molestias consectetur esse nemo cupiditate, accusamus natus voluptatum animi. Nobis repudiandae laboriosam cumque officiis deserunt cupiditate nostrum id laborum in pariatur exercitationem, dolor odit ut aspernatur, repellendus eaque repellat, cum omnis vitae aut nulla et adipisci! Quam provident omnis ad quis mollitia hic dolores eum unde ea exercitationem debitis necessitatibus, voluptas inventore a incidunt ullam odit harum sapiente maxime animi cupiditate nobis odio. Earum nihil soluta voluptate minima cupiditate alias odio, reprehenderit nostrum omnis officia et quod deserunt sequi dicta itaque molestias consequatur obcaecati laborum ut fugit eveniet perspiciatis! Repudiandae minima id suscipit pariatur dolor harum explicabo voluptatem sequi molestiae quos, mollitia accusamus voluptatibus voluptate assumenda nihil! Dolorem vero quidem sed reprehenderit. Laboriosam vero commodi, molestiae iste aut quod repudiandae. Sint est, in facere iusto, quae excepturi aliquam fugiat aperiam odit quaerat nobis a laudantium tempore nemo, commodi pariatur consectetur error ad. Ducimus saepe nemo nulla, quas earum consequuntur porro soluta, suscipit dolore quaerat voluptas, dicta totam facere. Quo ullam dolorem asperiores perferendis commodi aspernatur? Laborum illum iusto inventore nostrum iste adipisci autem laudantium vero dolores natus nesciunt aliquid in, fugit, dolor excepturi aut magni sunt perferendis amet minima quisquam iure aliquam veniam? Dolor corporis maxime, corrupti aliquam nostrum accusantium veniam distinctio rem, aliquid facilis minus quod. Doloremque molestiae aliquam possimus perferendis animi corrupti nesciunt ipsum quaerat magnam ea ullam et dolorem explicabo, dicta necessitatibus voluptatibus, fugit error eveniet consequatur! Molestias repellendus pariatur aspernatur ullam error reprehenderit nostrum quas asperiores in inventore? Amet inventore incidunt error totam, aliquid obcaecati, est nemo veniam eaque, provident consequuntur quod labore ea vero pariatur voluptas recusandae eum quibusdam animi ut minima ducimus numquam facilis. Quod nemo labore quae distinctio amet tenetur perspiciatis soluta? Porro quae voluptate corporis suscipit deserunt consequatur quisquam necessitatibus ex dignissimos similique doloremque laudantium vero, fuga, eos eius itaque dolor quam optio quasi commodi eaque! A ullam corporis aut cum quasi illum qui laudantium totam sed, assumenda veniam sint, saepe ab eaque perferendis praesentium illo nesciunt doloribus placeat debitis aliquam minima non! Eveniet vel voluptatibus error a dolorum facilis? Amet distinctio beatae recusandae ea perspiciatis, nulla magni et provident possimus unde facere, iste ut dolores commodi, officia voluptates quos nam assumenda repudiandae similique! Nesciunt ad itaque fuga quae in laudantium odit numquam explicabo sint voluptas rerum eaque nostrum pariatur est dolore, nisi quia fugit natus repudiandae laborum? Repellendus, laboriosam molestiae! Ipsum architecto debitis minus necessitatibus unde quas, adipisci velit consequatur, deleniti dolore sequi dicta eius nobis incidunt at. Consequuntur illo quidem quas libero obcaecati tempora totam corporis fugiat sit qui? Ab in error maxime beatae fuga sit enim qui, iste tenetur distinctio unde sed sunt minima voluptates. Sit quis repellat aliquid nam. Ratione laboriosam quos dolores nihil maxime tempora hic sunt beatae molestiae vitae unde modi reprehenderit, delectus debitis rerum quis eligendi, non aperiam laborum? Maiores ratione quaerat soluta! Corporis eos porro, dolore cum est quia tempore?</section>
+<script>
+    var brand = document.getElementById("brand");
+    window.addEventListener('scroll',(e)=>{
+        var c = Math.ceil(this.scrollY*0.8);
+        var o = 1 - (this.scrollY*(1/207));
+        //console.log(o)
+        brand.style.cssText = `transform: translateY(${c}px);opacity:${o}`
+    })
+</script>
+</body>
+</html>
